@@ -1,0 +1,15 @@
+{
+    "port" : 4002,
+    "env" : "development",
+    "db" : {
+        "dsn":"",
+        "MaxOpenConns":25,
+        "MaxIdleConns":25,
+        "MaxIdleTime":"15m"
+    },
+    "limiter":{
+        "rps":2,
+        "burst":4,
+        "enabled":true
+    }
+}
